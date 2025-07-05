@@ -47,6 +47,7 @@ Feel free to reach out via:
 
 - Email: tshuvabusiness@gmail.com
 - LinkedIn: www.linkedin.com/in/ariel-tshuva (link)
+- GitHub: https://github.com/ArielTshuva/Portfolio-.git
 
 ---
 
