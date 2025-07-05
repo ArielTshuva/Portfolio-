@@ -38,7 +38,7 @@ This project showcases selected works, projects, and skills that reflect my back
 
 ## 📄 Resume
 
-📥 [View My Resume](link-to-your-resume.pdf)
+📥 [View My Resume](https://github.com/ArielTshuva/Portfolio-/blob/41e8bb73e60b7fa93219a29382d4857b3cea6753/Resources/Ariel_Tshuva_CV_Data_Analyst.pdf)
 
 ---
 
