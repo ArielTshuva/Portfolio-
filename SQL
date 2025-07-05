@@ -1,1 +1,1 @@
-/SQL
+sql-projects/readme.md
