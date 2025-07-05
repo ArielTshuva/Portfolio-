@@ -47,7 +47,7 @@ This project showcases selected works, projects, and skills that reflect my back
 Feel free to reach out via:
 
 - Email: tshuvabusiness@gmail.com
-- LinkedIn: www.linkedin.com/in/ariel-tshuva (link)
+- LinkedIn: www.linkedin.com/in/ariel-tshuva
 - GitHub: https://github.com/ArielTshuva/Portfolio-.git
 
 ---
