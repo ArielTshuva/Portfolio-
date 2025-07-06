@@ -1,4 +1,4 @@
-# Portfolio-
+# Portfolio
 The Portfolio of my work - A prototype
 
 Hello, welcome to my personal portfolio repository 
