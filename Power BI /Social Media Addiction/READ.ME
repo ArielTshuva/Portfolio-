@@ -1,1 +1,65 @@
+ Power BI Project Report – Students Social Media Addiction
+
+
+Project Topic:
+The purpose of this project was to analyze the correlation between social media addiction and its impact on mental health, sleep habits, and academic performance among students, while segmenting the data by demographic attributes such as gender, age, education level, relationship status, and preferred platform.
+Data Source:
+The data was obtained from Kaggle as two CSV files via this link:
+https://www.kaggle.com/datasets/adilshamim8/social-media-addiction-vs-relationships?resource=download
+The dataset included:
+•	Age, gender, academic level, country
+•	Daily hours of social media usage
+•	Most used platform
+•	Mental health score, sleep hours, relationship status
+•	Addiction score and academic performance impact
+
+Data Preparation & Cleaning:
+•	Data was imported using Power Query.
+•	Data types were correctly assigned.
+•	No missing values were found, but data transformation could be expanded.
+•	Tables were divided into two fields: Fact and Dim.
+
+Data Model:
+•	A central Fact table was created, containing quantitative metrics (usage time, addiction score, sleep hours, etc.).
+•	Several dimension tables were built to store demographic and categorical attributes.
+•	One-to-many relationships were established between Dim and Fact tables.
+Key Measures (DAX):
+Total Students – total number of students.
+Average Daily Usage (Hours) – average daily time spent on social media.
+Average Sleep Hours – average hours of sleep per night.
+Average Addiction Score – overall addiction score average.
+Average Mental Health Score 
+Total Affected Academically – number of students whose academic performance was affected.
+% Affected Academically – percentage of students impacted academically.
+Low Sleepers – counts the number of students that have slept less than 6 hours.
+High Addiction Students – students with an addiction score that is either equal or greater than 8. 
+
+
+Report Structure – Four Main Pages:
+Overview – General insights about addiction, sleep, and mental health combining and sowing all of the different measures in the dashboard.
+Usage Analysis – Segmentation of Average Daily Usage (Hours) by platform, age, country etc. 
+Sleep Analysis - Correlation between usage and sleep related metrics.
+Academic Impact – Correlation between usage and academic performance.
+Mental & Relationship - Correlation between usage and mental related metrics.
+Age Demographic Effects – A detailed look on the age demographic in reference to all metrics in order to distinguish the most venerable age group.
+Demographics – Breakdown by gender, academic level, and relationship status.
+(Not all pages are fully separated; structure could be improved)
+
+
+Each page includes:
+•	Data cards showing summary metrics for selected time frames.
+•	Charts showing different scores of mental / sleep / addiction parameters.
+•	Slicers to filter by demographic and social media platforms.
+•	Drill-down.
+•	Some pages include a lineplot that shows correlation between the tested metric and social media usage time. 
+
+Business questions that can be answered by the dashboard:
+Does high addiction affect sleep quality?
+Answer: Yes – the grater the value of usage hours the smaller the value of Avg sleep hours.
+Is there a link between preferred platform and addiction levels?
+Answer: Yes – it seems like ticktock has the largest number of High Addiction Students.
+Do students in a relationship use social media less?
+Answer: No – it is actually the people in relationships that use social media the most.
+Which demographic groups are more academically affected?
+Answer: As can be seen on the screen "Age Demographic Effects" I put emphasis on the age group in relation to the other affected metrics such as mental, sleep, addiction etc. It apparent that the age group of 18 – 20 (peaks at 19) is the most affected by the exposer to social media. They have the highest addictions scores, low sleepers and highly addictive students.
 
