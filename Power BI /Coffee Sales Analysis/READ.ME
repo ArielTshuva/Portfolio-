@@ -1,1 +1,63 @@
+Power BI Project Report – Coffee Sales Analysis
+
+Project Topic:
+Analysis of coffee beverage purchasing trends and consumer behavior by time, coffee type, and payment method.
+Data Source:
+The data was obtained from Kaggle as two CSV files via this link:
+https://www.kaggle.com/datasets/ihelon/coffee-sales?select=index_2.csv
+I performed a Nested Join on the two files to create a single table (after removing an unnecessary column).
+Initially, I had data covering sales from the beginning of 2024 to March 2025.
+Since this was insufficient for building reliable forecasts, I used ChatGPT to generate an additional file covering data from 2021 through the end of 2023.
+The project’s goal was to demonstrate my ability to analyze data in Power BI, so I allowed myself to supplement the data using AI (based on the original files) to complete the analysis more effectively.
+After redesigning the tables, filtering out irrelevant columns, and merging them, I created a unified table named FactFullTable, which contains:
+•	Purchase date
+•	Coffee type
+•	Purchase amount
+•	Payment method (cash/card)
+
+Data Preparation & Cleaning:
+•	Data was imported using Power Query.
+•	Anomalous / irrelevant values and columns were removed.
+•	Column data types were defined correctly.
+•	Duplicate issues were addressed at the CSV stage before import.
+
+Data Model:
+•	Dimensional tables were created: DimCalendar, DimPayment, DimCoffee.
+•	The fact table of FactFullTable was already in place.
+•	A Star Schema was built.
+(Note: The original raw files – index_1, index_2, and the AI-generated file – were kept outside the model)
+•	Relationships were defined as one-to-many between Dim to Fact tables.
+•	Hierarchies were created: Year > Quarter > Month > Day, used in visualizations.
+
+Key Measures (DAX):
+•	Total Revenue
+•	Average Orders per Day
+•	Top Selling Coffee
+•	Total Cash Sales
+•	Total Card Sales
+•	Amount of Orders
+
+Report Structure – Four Main Pages:
+1.	General Overview
+2.	Time Based Analysis
+3.	Coffee Name Based Analysis
+4.	Payment-Type Based Analysis
+5.	Forecasts
+
+
+Each page includes:
+•	Data cards showing summary metrics for selected time frames.
+•	Charts showing sales by coffee type and by quarter/month.
+•	Slicers to filter by coffee type, payment method, and time (year, quarter, month, week, day).
+•	Drill-down via time hierarchy.
+•	The Forecast page includes 2-year projections based on the last 5 years of data, broken down by year, quarter, and month.
+
+Business questions that can be answered by the dashboard:
+•	What is the top-selling coffee in a selected time frame? (Measure: Top Selling Coffee)
+•	Which payment method is more dominant at a given time frame – cash or card? (Measure: Total Cash Sales, Total Card Sales)
+•	How do sales trends change over time? Comparison of sales across years, months and days.
+•	What is the average number of orders per day? (Measure: Average Orders per Day)
+•	How many orders were made - broken down by time, coffee type, and payment method?
+•	Sales forecasts for 2026 and 2027.
+
 
