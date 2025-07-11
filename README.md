@@ -30,7 +30,7 @@ This project showcases selected works, projects, and skills that reflect my back
 
 ## 🛠️ Skills & Tools
 
-- **Languages:** Python, SQL
+- **Languages:** Python, SQL, DAX
 - **Data/BI Tools:** Excel, Power BI, pandas
 - **Other:** Git, AI
 
