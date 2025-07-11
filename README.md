@@ -1,5 +1,5 @@
 # Portfolio
-The Portfolio of my work - A prototype
+The Portfolio of my work
 
 Hello, welcome to my personal portfolio repository 
 This project showcases selected works, projects, and skills that reflect my background in Data Analysis.
